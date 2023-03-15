@@ -1,0 +1,26 @@
+body {
+    padding-top: 250px;
+    background-image: url('../images/beans_bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    /* min-height: 100%; */
+    filter: saturate(.7);
+  }
+
+  .album {
+    background-color: transparent !important;
+  }
+
+  .fixed-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+  }
+  
+  
