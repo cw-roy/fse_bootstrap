@@ -12,69 +12,101 @@
     <!-- Custom styles for this template -->
     <link href="sign-in.css" rel="stylesheet">
 </head>
+
 <body class="text-center">
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.html">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
-            </ul>
-            <!-- <form class="d-flex" role="search">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/becky-logo-small.png" alt="Coffee Shop Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<main class="form-signin w-100 m-auto">
-    <div class="row">
-      <div class="col-md-4">
-        <img class="mb-4" src="images/becky-logo.png" alt="" width="400" height="400">
-      </div>
-      <div class="col-md-4">
-        <form>
-          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-          <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+    <main class="form-signin w-100 m-auto">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="mb-4" src="images/becky-logo.png" alt="" width="300" height="300">
           </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
+          <div class="col-md-2">
+            <form>
+              <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com" required>
+                <label for="floatingInput">Email address</label>
+                <div class="valid-feedback">Valid email address</div>
+                <div class="invalid-feedback">Please enter a valid email address</div>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password" minlength="8" required>
+                <label for="floatingPassword">Password</label>
+                <div class="valid-feedback">Valid password</div>
+                <div class="invalid-feedback">Please enter a password with at least 8 characters</div>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+            </form>
           </div>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
-          <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
-        </form>
-      </div>
-    </div>
-  </main>
-  
+        </div>
+      </main>
+      
+    
+    <!-- <main class="form-signin w-100 m-auto">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="mb-4" src="images/becky-logo.png" alt="" width="300" height="300">
+            </div>
+            <div class="col-md-2">
+                <form>
+                    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </main> -->
+
 
 </body>
 
