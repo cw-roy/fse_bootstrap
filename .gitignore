@@ -1,3 +1,11 @@
+### Any custom items here ###
+.DS_Store
+*.zip
+css/
+js/
+
+
+
 # Logs
 logs
 *.log
