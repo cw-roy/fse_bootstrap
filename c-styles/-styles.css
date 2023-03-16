@@ -12,27 +12,26 @@ body {
   background-color: transparent !important;
 }
 
-  .fixed-section {
-    position: fixed;
-    top: 60px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    z-index: 999;
-  }
-  
-  
-  .valid-feedback, .invalid-feedback {
-    display: none;
-  }
-  
-  input:valid + .valid-feedback {
-    display: block;
-    color: green;
-  }
-  
-  input:invalid + .invalid-feedback {
-    display: block;
-    color: red;
-  }
+.fixed-section {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+}
+
+.valid-feedback,
+.invalid-feedback {
+  display: none;
+}
+
+input:valid+.valid-feedback {
+  display: block;
+  color: green;
+}
+
+input:invalid+.invalid-feedback {
+  display: block;
+  color: red;
