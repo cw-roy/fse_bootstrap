@@ -4,38 +4,38 @@ In this project, we will use what we know about HTML and CSS to create an e-comm
 ## Basic Requirements
 **Your website should include the following pages in order to be considered complete:**
  
- - A homepage
- - A contact page
- - A products and/or services page
- - A user registration page
- - A user login page
+ - A homepage :heavy_check_mark:
+ - A contact page :heavy_check_mark:
+ - A products and/or services page :heavy_check_mark:
+ - A user registration page :heavy_check_mark:
+ - A user login page :heavy_check_mark:
  
  **Your website should also include the following HTML elements and other features:**
 
- - At least 1 properly structured HTML Table
+ - At least 1 properly structured HTML Table :heavy_check_mark:
  - The HTML Forms must contain the following where applicable:
-    - at least one field with the `type` of `password`
-    - at least one properly formated `<select>` element
-    - at least one type HTML5 validation 
- - You must include images on your site
- - At least 1 properly formated HTML list
- - At least one properly used semantic HTML element
- - At least one component from a CSS framework like Bootstrap
- - Your site must the grid system from a CSS framework on at least 1 section of the site
+    - at least one field with the `type` of `password` :heavy_check_mark:
+    - at least one properly formated `<select>` element :heavy_check_mark:
+    - at least one type HTML5 validation :heavy_check_mark:
+ - You must include images on your site :heavy_check_mark:
+ - At least 1 properly formated HTML list :heavy_check_mark:
+ - At least one properly used semantic HTML element :heavy_check_mark:
+ - At least one component from a CSS framework like Bootstrap :heavy_check_mark:
+ - Your site must the grid system from a CSS framework on at least 1 section of the site :heavy_check_mark:
 
 **Other Requirements**
 
-- Your repository must contain appropriate the git commit history
+- Your repository must contain appropriate the git commit history :heavy_check_mark:
     - Typically a commit for each meaningful piece of work completed
-- Maintain a project board outlining and prioritizing the user stories and tasks needed to create your minimum viable product (MVP)
+- Maintain a project board outlining and prioritizing the user stories and tasks needed to create your minimum viable product (MVP) :red_circle:
 
 ## Challenge Yourself
 If you have time and want to challenge yourself, please consider the following:
 
 - Create pages for the Checkout Process
-    - Shopping cart
-    - Billing Information
-    - Shipping Information
-    - Confirmation page
+    - Shopping cart :red_circle:
+    - Billing Information :red_circle:
+    - Shipping Information :red_circle:
+    - Confirmation page :red_circle:
 - Add any other awesome pages you think would complement your site and add to the user's experience
 - Add some functionality or a feature that you learned on your own
