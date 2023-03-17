@@ -26,16 +26,16 @@ In this project, we will use what we know about HTML and CSS to create an e-comm
 **Other Requirements**
 
 - Your repository must contain appropriate the git commit history :heavy_check_mark:
-    - Typically a commit for each meaningful piece of work completed
-- Maintain a project board outlining and prioritizing the user stories and tasks needed to create your minimum viable product (MVP) :red_circle:
+    - Typically a commit for each meaningful piece of work completed :heavy_check_mark:
+- Maintain a project board outlining and prioritizing the user stories and tasks needed to create your minimum viable product (MVP) :heavy_check_mark:
 
 ## Challenge Yourself
 If you have time and want to challenge yourself, please consider the following:
 
 - Create pages for the Checkout Process
-    - Shopping cart :red_circle:
-    - Billing Information :red_circle:
-    - Shipping Information :red_circle:
-    - Confirmation page :red_circle:
+    - Shopping cart
+    - Billing Information
+    - Shipping Information
+    - Confirmation page
 - Add any other awesome pages you think would complement your site and add to the user's experience
-- Add some functionality or a feature that you learned on your own
+- Add some functionality or a feature that you learned on your own.
