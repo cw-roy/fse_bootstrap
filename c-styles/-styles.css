@@ -15,7 +15,7 @@ body {
 button, .btn {
   background-color: hsla(20, 50%, 30%, 1);
   color:  hsla(20, 50%, 80%, 1)
-  box-shadow: 0 3px 3px rgba(0,0,0,.2);
+  box-shadow 0 3px 3px rgba(0,0,0,.2);
 }
 
 h1.action {
@@ -128,3 +128,4 @@ input:valid+.valid-feedback {
 input:invalid+.invalid-feedback {
   display: block;
   color: red;
+}
